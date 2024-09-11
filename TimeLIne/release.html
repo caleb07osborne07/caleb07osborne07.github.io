@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checklist with Animated Line-Through</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file -->
+</head>
+
+<div id="contain">
+<body>
+
+    <div id="rel">
+        <h1>Release Order</h1>
+    </div>
+
+    <div class="container">
+        <div id="relm">
+        <a href="chron.html" class="box">Chronological Order</a>
+        <a href="index.html" class="box">Headquarters</a>
+         </div>
+    </div>
+
+    <ul class="check">
+    <ul id="checklist">
+        <li>
+            <input type="checkbox" id="item1"> <span class="task">Captain America: The First Avenger</span></li>
+        <li>
+            <input type="checkbox" id="item2"> <span class="task">Captain Marvel (2019)</span></li>
+        <li>
+            <input type="checkbox" id="item3"> <span class="task">Iron Man (2008)</span></li>
+        <li>
+            <input type="checkbox" id="item4"> <span class="task">Iron Man 2 (2010)</span></li>
+        <li>
+            <input type="checkbox" id="item5"> <span class="task">The Incredible Hulk (2008)</span></li>
+        <li>
+            <input type="checkbox" id="item6"> <span class="task">Thor (2011)</span></li>
+        <li>
+            <input type="checkbox" id="item7"> <span class="task">The Avengers (2012)</span></li>
+        <li>
+            <input type="checkbox" id="item8"> <span class="task">Iron Man 3 (2013)</span></li>
+        <li>
+            <input type="checkbox" id="item9"> <span class="task">Thor: The Dark World (2013)</span></li>
+        <li>
+            <input type="checkbox" id="item10"> <span class="task">Captain America: The Winter Soldier (2014)</span></li>
+    </ul>
+</ul>
+    <script src="script.js"></script>
+
+    <script>
+        // Call this function with a page-specific identifier
+        setupPage('page2');
+    </script>
+
+</body>
+</div>
+</html>
